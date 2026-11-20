@@ -1,0 +1,15 @@
+[package]
+name = "loglerting"
+version = "0.9.0-beta"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.12", features = ["tokio", "wgpu"] }
+regex = "1"
+log = "0.4"
+simplelog = "0.12"
+directories = "5"
+futures-timer = "3"
+chrono = { version = "0.4", features = ["clock"] }
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
